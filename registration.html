@@ -36,17 +36,23 @@
 
             <!-- Account fieldset -->
             <fieldset>
-                <label>
-                    <input type="radio"/> Personal Account
+                <label for="personal-account">
+                    <input id="personal-account" type="radio"/> Personal Account
                 </label>
-                <label>
+                <label id="business-account" for="business-account">
                     <input type="radio"/> Business Account
                 </label>
-                <label>
-                    <input type="checkbox"/>
+                <label for="terms-and-conditions">
+                    <input id="terms-and-conditions" type="checkbox"/> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">Terms and Conditions</a>
                 </label>
             </fieldset>
-            <fieldset></fieldset>
+
+            <!-- Profile picture fieldset -->
+            <fieldset>
+                <label>Upload a profile picture: 
+                    <input type="file"/>
+                </label>
+            </fieldset>
             <input type="submit" value="Submit"/>
         </form>
 
