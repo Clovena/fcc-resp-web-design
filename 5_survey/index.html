@@ -10,25 +10,25 @@
 
     <body>
         <h1 id="title">freeCodeCamp Survey Form</h1>
-        <p id="description"><em>Thank you for taking the time to help us improve the platform</em></p>
+        <p id="description"><em>Thank you for taking the time to help us improve the platform.</em></p>
 
         <form id="survey-form">
             <!-- Name, Email, Age, Role -->
-            <label for="name">
+            <label for="name" id="name-label">
                 <input id="name"
                        name="name"
                        type="text"
                        placeholder="Enter your name"
                        required/> Name
             </label>
-            <label for="email">
+            <label for="email" id="email-label">
                 <input id="email"
                        name="email"
                        type="email"
                        placeholder="Enter your email address"
                        required/> Email 
             </label>
-            <label for="number">
+            <label for="number" id="number-label">
                 <input id="number"
                        name="age"
                        type="number"
@@ -78,7 +78,43 @@
                     <option value="4">Other</option>
                 </select>
             </label>
-            <!-- TODO: Steps 14-16; css styling -->
+            <fieldset>
+                <legend>What would you like to see improved? <em>(Select all that apply.)</em></legend>
+                <label for="front-end">
+                    <input id="front-end"
+                           type="checkbox"
+                           name="improve"
+                           value="1"/> Front-End Projects
+                </label>
+                <label for="back-end">
+                    <input id="back-end"
+                           type="checkbox"
+                           name="improve"
+                           value="2"/> Back-End Projects
+                </label>
+                <label for="data-vis">
+                    <input id="data-vis"
+                           type="checkbox"
+                           name="improve"
+                           value="3"/> Data Visualization
+                </label>
+                <label for="wiki">
+                    <input id="wiki"
+                           type="checkbox"
+                           name="improve"
+                           value="4"/> Wiki
+                </label>
+                <label for="addtl"> Any other comments?
+                    <textarea id="addtl"
+                          name="addtl"
+                          placeholder="Enter your comments here...">
+                    </textarea>
+                </label>
+            </fieldset>
+            
+            <!-- Submit -->
+            <input type="submit" value="Submit"/>
+
         </form>
     </body>
 </html>
