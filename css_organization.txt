@@ -1,5 +1,7 @@
-Order of HTML Elements in .css Files
+Order of HTML Elements and Properties in .css Files
 (adapted from https://www.freecodecamp.org/news/html-cheat-sheet-html-elements-list-reference/)
+
+ELEMENTS
 
 <head>
 <body>
@@ -74,3 +76,87 @@ Order of HTML Elements in .css Files
 <meter>
 <progress>
 <dialog>
+
+
+PROPERTIES 
+
+### Position
+
+position: 
+float: 
+display: 
+    flex-direction: 
+    flex-wrap: 
+    justify-content: 
+
+visibility: 
+top: 
+left: 
+bottom: 
+right: 
+z-index: 
+
+
+### Dimensions
+
+width: 
+    min-width: 
+    max-width: 
+height: 
+    min-height: 
+    max-height: 
+
+
+### Box-Model
+
+padding: 
+border: 
+    border-radius:
+outline: 
+box-sizing: 
+margin: 
+
+
+### Appearance
+
+background: 
+background-color: 
+box-shadow: 
+
+filter: 
+
+
+### Font
+
+font-family: 
+font-size: 
+font-weight: 
+color: 
+
+text-align: 
+text-decoration: 
+text-shadow: 
+text-transform: 
+
+letter-spacing: 
+line-height: 
+
+white-space: 
+word-wrap: 
+word-break: 
+user-select: 
+
+
+### Transform 
+
+transform: 
+transition: 
+animate: 
+
+
+### Miscellaneous
+
+overflow: 
+opacity: 
+
+
