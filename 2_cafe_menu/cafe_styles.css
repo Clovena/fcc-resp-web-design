@@ -1,96 +1,96 @@
 h1 {
-  font-size: 40px;
-  font-family: Impact, serif;
-  margin-top: 0px;
-  margin-bottom: 15px;
+	font-size: 40px;
+	font-family: Impact, serif;
+	margin-top: 0px;
+	margin-bottom: 15px;
 }
 
 h2 {
-  font-size: 30px;
-  font-family: Impact, serif;
+	font-size: 30px;
+	font-family: Impact, serif;
 }
 
 h1,
 h2,
 p {
-  text-align: center;
+	text-align: center;
 }
 
 body {
-  font-family: sans-serif;
-  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
-  padding: 20px;
+	font-family: sans-serif;
+	background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+	padding: 20px;
 }
 
 img {
-  display: block;
-  margin-top: -25px;
-  margin-left: auto;
-  margin-right: auto;
+	display: block;
+	margin-top: -25px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 hr {
-  height: 2px;
-  background-color: brown;
-  border-color: brown;
+	height: 2px;
+	background-color: brown;
+	border-color: brown;
 }
 
 .address {
-  margin-bottom: 5px;
+	margin-bottom: 5px;
 }
 
 .bottom-line {
-  margin-top: 25px;
+	margin-top: 25px;
 }
 
 .dessert,
 .flavor {
-  text-align: left;
-  width: 75%;
+	text-align: left;
+	width: 75%;
 }
 
 .established {
-  font-style: italic;
+	font-style: italic;
 }
 
 .item p {
-  display: inline-block;
-  font-size: 18px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+	display: inline-block;
+	font-size: 18px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .menu {
-  width: 80%;
-  background-color: burlywood;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  max-width: 500px;
+	width: 80%;
+	background-color: burlywood;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	max-width: 500px;
 }
 
 .price {
-  text-align: right;
-  width: 25%;
+	text-align: right;
+	width: 25%;
 }
 
 /* FOOTER */
 footer {
-  font-size: 14px;
+	font-size: 14px;
 }
 
 a {
-  color: black;
+	color: black;
 }
 
 a:active {
-  color: white;
+	color: white;
 }
 
 a:hover {
-  color: brown;
+	color: brown;
 }
 
 a:visited {
-  color: grey;
+	color: grey;
 }
