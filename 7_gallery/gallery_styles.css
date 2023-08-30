@@ -8,6 +8,20 @@ body {
     font-family: sans-serif;
 }
 
+.header {
+    padding: 32px;
+    border-bottom: 4px solid #fdb347;
+    background: #0a0a23;
+
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.gallery {
+    display: flex;
+}
+
 .gallery img {
     width: 100%;
     max-width: 350px;
