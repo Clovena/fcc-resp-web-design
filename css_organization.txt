@@ -80,6 +80,11 @@ ELEMENTS
 
 PROPERTIES 
 
+### Pseudo-Element Content
+
+content: 
+
+
 ### Position
 
 position: 
@@ -88,6 +93,8 @@ display:
     flex-direction: 
     flex-wrap: 
     justify-content: 
+    align-items: 
+object-fit: 
 
 visibility: 
 top: 
@@ -116,10 +123,7 @@ outline:
 box-sizing: 
 margin: 
 
-
-### Flex-Box
-
-display: 
+gap: 
 
 
 ### Appearance
