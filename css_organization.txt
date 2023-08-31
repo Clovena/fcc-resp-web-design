@@ -144,6 +144,7 @@ color:
 
 text-align: 
 text-decoration: 
+text-indent: 
 text-shadow: 
 text-transform: 
 
