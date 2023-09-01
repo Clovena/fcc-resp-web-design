@@ -5,6 +5,7 @@ ELEMENTS
 
 <head>
 <body>
+<section> 
 <div>
 <span>
 <header>
@@ -91,6 +92,10 @@ content:
 ### Position
 
 position: 
+    top: 
+    left: 
+    bottom: 
+    right: 
 float: 
 display: 
     flex-direction: 
@@ -101,10 +106,6 @@ object-fit:
 clip-path: 
 
 visibility: 
-top: 
-left: 
-bottom: 
-right: 
 z-index: 
 
 
@@ -161,6 +162,8 @@ word-wrap:
 word-break: 
 user-select: 
 
+list-style: 
+
 
 ### Transform 
 
@@ -173,5 +176,6 @@ animate:
 
 overflow: 
 opacity: 
+cursor: 
 
 
