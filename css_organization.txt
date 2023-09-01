@@ -77,6 +77,9 @@ ELEMENTS
 <progress>
 <dialog>
 
+By ID (#)
+By Class (.)
+
 
 PROPERTIES 
 
@@ -95,6 +98,7 @@ display:
     justify-content: 
     align-items: 
 object-fit: 
+clip-path: 
 
 visibility: 
 top: 
@@ -112,6 +116,7 @@ width:
 height: 
     min-height: 
     max-height: 
+aspect-ratio: 
 
 
 ### Box-Model
