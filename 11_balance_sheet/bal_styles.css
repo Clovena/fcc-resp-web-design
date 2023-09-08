@@ -83,9 +83,65 @@ tbody th {
 	width: calc(100% - 12rem);
 }
 
+tr[class="data"] {
+	background-image: linear-gradient(
+		to bottom,
+		#dfdfe2 1.845rem,
+		white 1.845rem
+	);
+}
+
+tr[class="data"] td {
+	vertical-align: top;
+	text-align: right;
+	padding: 0.3rem 0.25rem 0;
+}
+
+tr.data td:last-of-type {
+	padding-right: 0.5rem;
+}
+
+tr[class="data"] th {
+	padding-top: 0.3rem;
+	padding-left: 0.5rem;
+	text-align: left;
+}
+
+tr[class="data"] th .description {
+	display: block;
+
+	margin-right: -13.5rem;
+	padding: 1rem 0 0.75rem;
+
+	font-style: italic;
+	font-weight: normal;
+}
+
 tr[class="total"] {
 	border-bottom: 4px double #0a0a23;
 	font-weight: bold;
+}
+
+tr[class="total"]:hover {
+	background: #99c9ff;
+}
+
+tr[class="total"] td {
+	text-align: right;
+	padding: 0 0.25rem;
+}
+
+tr[class="total"] td:nth-of-type(3) {
+	padding-right: 0.5rem;
+}
+
+tr[class="total"] th {
+	text-align: left;
+	padding: 0.5rem 0 0.25rem 0.5rem;
+}
+
+td[class="current"] {
+	font-style: italic;
 }
 
 #years {
