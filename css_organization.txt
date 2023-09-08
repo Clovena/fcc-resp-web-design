@@ -103,7 +103,8 @@ display:
     justify-content: 
     align-items: 
 object-fit: 
-clip-path: 
+clip: 
+    clip-path: 
 
 visibility: 
 z-index: 
@@ -125,6 +126,7 @@ aspect-ratio:
 padding: 
 border: 
     border-radius:
+    border-collapse: 
 outline: 
 box-sizing: 
 margin: 
