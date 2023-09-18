@@ -78,8 +78,8 @@ ELEMENTS
 <progress>
 <dialog>
 
-By ID (#)
 By Class (.)
+By ID (#)
 
 
 PROPERTIES 
