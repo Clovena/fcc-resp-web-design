@@ -80,6 +80,7 @@ ELEMENTS
 
 By Class (.)
 By ID (#)
+Media query (@)
 
 
 PROPERTIES 
