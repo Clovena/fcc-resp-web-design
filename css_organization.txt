@@ -3,6 +3,7 @@ Order of HTML Elements and Properties in .css Files
 
 ELEMENTS
 
+<html>
 <head>
 <body>
 <section> 
@@ -103,6 +104,10 @@ display:
     flex-wrap: 
     justify-content: 
     align-items: 
+
+    grid-column: 
+    grid-template-columns:
+    row-gap: 
 object-fit: 
 clip: 
     clip-path: 
