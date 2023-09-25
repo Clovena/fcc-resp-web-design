@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #eee;
+	font-family: "Lato", sans-serif;
+}
+
+header {
+	position: fixed;
+	padding: 32px;
+}
+
+.fa,
+.far,
+.fas {
+	font-family: "Font Awesome 5 Free";
+}
